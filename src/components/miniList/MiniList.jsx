@@ -7,7 +7,7 @@ const MiniList = ({ titleText }) => {
       <div className="MiniList__icons">
         <div>
           <p>🪑</p>
-          Chair
+          <p>Chair</p>
         </div>
         <div>
           <p>🛏️</p>
