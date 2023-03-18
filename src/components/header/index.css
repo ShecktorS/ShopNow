@@ -1,0 +1,19 @@
+.Header {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header > * {
+  height: 46px;
+}
+
+.Header img {
+  background-color: rgb(247, 255, 133);
+  border-radius: 10px;
+}
+
+.Header__menu {
+  font-size: 1.8rem;
+}
