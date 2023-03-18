@@ -1,8 +1,10 @@
 .Header {
-  height: 40px;
+  border: solid blue 1px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 5px;
 }
 
 .Header > * {
