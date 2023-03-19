@@ -4,4 +4,6 @@
 .CardList__content {
   display: flex;
   overflow: auto;
+  gap: 20px;
+  scroll-behavior: smooth;
 }

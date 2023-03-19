@@ -1,0 +1,12 @@
+.Footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6em;
+  margin-top: 20px;
+  color: gray;
+}
+
+.selectedIcon {
+  color: #96543a;
+}
