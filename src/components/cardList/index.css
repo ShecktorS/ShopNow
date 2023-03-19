@@ -1,2 +1,7 @@
 .CardList {
 }
+
+.CardList__content {
+  display: flex;
+  overflow: auto;
+}
