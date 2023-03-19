@@ -5,13 +5,22 @@ const CardItem = () => {
     <div className="CardItem">
       <div className="CardItem__image">
         <img src={products.thumbnail} alt={products.title} />
-        <div className="likeButton">❤️</div>
+        <div
+          className="likeButton"
+          onClick={() =>
+            alert("Hai aggiunto il prodotto alla lista dei preferiti! 😍")
+          }
+        >
+          ❤️
+        </div>
       </div>
       <div className="CardItem__info">
         <h3 className="CardItem__info--title">{products.title}</h3>
-        <div>
-          <p className="CardItem_info--price">{products.price}</p>
-          <p className="CardItem_info--rating">{products.rating}</p>
+        <div className="CardItem_info--downSection">
+          <p className="CardItem_info--price">€ {products.price},00</p>
+          <p className="CardItem_info--rating">
+            ⭐ {products.rating.toFixed(1)}
+          </p>
           <div className="addToCart">+</div>
         </div>
       </div>
